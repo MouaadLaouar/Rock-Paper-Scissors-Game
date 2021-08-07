@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #F0F0CB;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+header {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+}
+
+.player, .computer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.theGame {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game-1 {
+    display: none;
+}
+
+.img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gPlayer {
+    transform: rotateY(180deg);
+}
+
+.theButton {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Rock, .Paper, .Scissors, .buttonStart {
+    height: 20px;
+    padding: 10px;
+    background-color: #0F52BA;
+    border-radius: 10px;
+    border-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.game-2 {
+    display: block;
+}
+
+
